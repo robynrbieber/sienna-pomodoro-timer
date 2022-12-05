@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+/* General */
+
+body {
+  font-family: 'Lora', sans-serif;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button,
+button:active {
+  background-color: #B38A6A;
+  border: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  text-align: center;
+  /*
+  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  */
+}
+
+button:focus {
+  translate: 0.2em 0.2em;
+  /*
+  box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+  */
+}
+
+/* Clock Body */
+
+.clock-container {
+  background-color: #E9E6DF; 
+  width: 350px;
+  border-radius: 10px;
+  padding: 30px;
+  /*box-shadow: 10px 10px sienna;*/
+}
+
+/* Display + Stop/Start/Reset Controls */
+
+#time-left {
+  font-size: 65px;
+  text-align: center;
+    border: 1.5px solid #373530;
+  /*background-color: #fff;*/
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+#display-controls {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /*text-transform:uppercase;*/
+}
+
+#timer-label {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 7px;
+
+
+    border: 1.5px solid #373530;
+  border-radius: 5px;
+  height: 30px;
+  flex: 2;
+    font-weight: 600;
+
+}
+
+#timer-ssr {
+  flex: 1;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-start: end;
+
+}
+
+.timer-label{
+vertical-align:middle;
+  font-size: .7rem !important;
+}
+
+/* Timer Length Controls */
+
+.length-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.inc-dec-btn-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 140px;
+  height:60px;
+  padding-top: 5px;
+align-items: center;
+}
+
+.break-container, 
+.session-container {
+  text-align: center;
+/*   display: inline-block; */
+  border: 1.5px solid #373530;
+  padding: 18px 5px 7px 5px;
+  border-radius: 10px;
+  width: 48%;
+
+}
+
+.timer-length {
+  font-size: 1.5em;
+
+}
+
+.break-container,
+.inc-arrow {
+  margin-right: 12px;
+}
+#session-length{
+  font-size: 1.3rem;
+}
+#break-label{
+  font-size: 1rem;
+  padding-bottom: 8px;
+  /*text-transform:uppercase;*/
+  font-style: italic;
+}
+#session-label{
+    font-size: 1rem;
+  padding-bottom: 8px;  
+  font-style: italic;
+  /*text-transform:uppercase;*/
+}
+.timer-length{
+
+}
+Copied
